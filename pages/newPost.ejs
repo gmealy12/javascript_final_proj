@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title>New Post</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 class="webTitle">New Post</h1>
+    <form action="processSubmitPost" method="post">
+        <label>Title
+            <br>
+            <input type="text" name="title" id="titleInput">
+        </label>
+        <br>
+        <label id="textInput">Text
+            <br>
+            <textarea name="body" id="bodyInput"></textarea>
+        </label>
+        <br>
+        <input type="submit" id="submitButton">
+        <input type="reset" id="resetButton">
+    </form>
+</body>

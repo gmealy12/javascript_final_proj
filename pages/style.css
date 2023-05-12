@@ -1,0 +1,50 @@
+html {
+    font-size: 16px;
+    /* background-color: #555555; */
+    background-color: ivory;
+    font-family: Arial, Helvetica, sans-serif;
+    /* color: white */
+}
+
+body {
+    margin-left: 2rem;
+}
+
+.webTitle {
+    font-size: 2rem;
+}
+
+.post {
+    border: solid black .1rem;
+    border-radius: .5rem;
+    padding: .75rem;
+    /* margin: 1rem; */
+}
+
+.postTitle {
+    padding-top: 0rem;
+    margin-top: 0rem;
+    color: brown;
+}
+
+.submissionTime {
+    color: darkgreen;
+}
+
+.homeButton {
+    /* margin: 1rem; */
+    font-size: 1rem;
+    margin-right: 1rem;
+}
+
+#titleInput {
+    margin-bottom: 2rem;
+    height: 1.5rem;
+    min-width: 40rem;
+}
+
+#bodyInput {
+    margin-bottom: 1rem;
+    height: 10rem;
+    width: 40rem;
+}

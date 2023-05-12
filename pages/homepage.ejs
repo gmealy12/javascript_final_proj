@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title>Home Page</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<!-- Add Postings -->
+	<h1 class="webTitle">UMD Message Board</h1>
+	<button class="homeButton" onclick="window.location.href='/newPost';">Submit new post</button>
+	<button class="homeButton" onclick="window.location.href='/removePost';">Remove post</button>
+	<button class="homeButton" onclick="window.location.href='/nasaImage';">View the NASA image of the day!</button>
+	<br><hr><br>
+	<div id="postContainer">
+		<%- posts %>
+	</div>
+	
+</body>

@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title>Home Page</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Remove Posts</h1>
+    <fieldset>
+        <h3>Remove an individual post</h3>
+        <form action="processRemovePost" method="post">
+            <label>Title of post: </label>
+            <input type="text" name="title">
+            <br><br>
+            <input type="submit" value="Remove post" onclick="return confirm('Are you sure you want to remove this post?')">
+            <br>
+        </form>
+    </fieldset>
+    <br>
+    <fieldset>
+        <form action="processRemovePost" method="post">
+            <h3>Remove all posts</h3>
+            <input type="submit" value="Remove all posts" onclick="return confirm('Are you sure you want to remove all posts?')">
+        </form>
+    </fieldset>
+</body>
