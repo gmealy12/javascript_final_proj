@@ -15,7 +15,7 @@
             <label>Title of post: </label>
             <input type="text" name="title">
             <br><br>
-            <input type="submit" value="Remove post" onclick="return confirm('Are you sure you want to remove this post?')">
+            <input class="removeButton" type="submit" value="Remove post" onclick="return confirm('Are you sure you want to remove this post?')">
             <br>
         </form>
     </fieldset>
@@ -23,7 +23,9 @@
     <fieldset>
         <form action="processRemovePost" method="post">
             <h3>Remove all posts</h3>
-            <input type="submit" value="Remove all posts" onclick="return confirm('Are you sure you want to remove all posts?')">
+            <input class="removeButton" type="submit" value="Remove all posts" onclick="return confirm('Are you sure you want to remove all posts?')">
         </form>
     </fieldset>
+    <br>
+    <button class="homeButton" onclick="window.location.href='/';">Return to Homepage</button>
 </body>

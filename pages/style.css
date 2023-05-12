@@ -59,3 +59,12 @@ body {
 #clearButton {
     background-color: lightcoral;
 }
+
+.removeButton {
+    background-color: lightcoral;
+    font-size: 1rem;
+    margin-right: 1rem;
+    padding: .3rem;
+    border-radius: .5rem;
+    box-shadow: .2rem .2rem .2rem #77777777;
+}
