@@ -111,7 +111,7 @@ app.post("/processRemovePost", async (request, response) => {
         output += `<strong>Success</strong>, ${removed} post(s) have been removed.`;
     }
 
-    output += `<br><br><button id="newPost" onclick="window.location.href='/';">Return to homepage</button>`;
+    output += `<br><br><button class="homeButton" id="newPost" onclick="window.location.href='/';">Return to homepage</button>`;
     response.send(output);
 });
 
