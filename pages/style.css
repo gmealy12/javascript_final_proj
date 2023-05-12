@@ -51,3 +51,11 @@ body {
     height: 10rem;
     width: 40rem;
 }
+
+#postButton {
+    background-color: lightgreen;
+}
+
+#clearButton {
+    background-color: lightcoral;
+}
