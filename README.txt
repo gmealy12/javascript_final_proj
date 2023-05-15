@@ -10,3 +10,7 @@ API Links:
 NASA Image of the day from: https://api.nasa.gov/
 
 YouTube Demo Video:
+https://youtu.be/ABCfGZlLGlI
+
+Site hosted online at:
+https://cute-gold-worm.cyclic.app/
